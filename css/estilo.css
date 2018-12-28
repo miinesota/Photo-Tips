@@ -1,0 +1,257 @@
+/*index.html*/
+h2{
+	font-size: 3.50em !important;
+}
+h3{
+	font-size: 2.75em !important;
+}
+h5{
+	font-size: 1.75em !important;
+}
+#tituloinsta{
+	font-size: 5.75em !important;
+}
+
+#botonhorario{
+	height:50px;
+	width: 200px;
+	margin-left: 550px;
+	margin-top: 75px;
+}
+.imagen{
+	margin:30px 180px 30px 180px;
+	height:450px;
+	width: 1000px;
+}
+#cabecera
+{
+	height: 150px;
+	background-color:#B5E6FC;
+}
+.relativo{
+	position: relative;
+}
+.absoluta{
+	position: absolute;
+	z-index: 2;
+	top: 83%;
+	left: 25%;
+}
+.absoluta2{
+	position: absolute;
+	z-index: 2;
+	top: 83%;
+	left: 30%;
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 2px black;
+	font-size: 2.5em;
+}
+.active{
+	position: relative;
+}
+#cubos{
+margin:0 115px;	
+}
+#cabecera{
+	
+	display: flex;
+}
+
+#texto{
+	font-family: 'Abril Fatface', cursive;
+	text-align:center;	
+	margin-left: 0%;
+	margin-top: 0.4%;
+	font-size: 3.6em;
+}
+#foto{
+	margin: 1.5% 0em 0em 15%;
+	height: 100px;
+	width: 130px;
+}
+
+#foto2{
+	margin: 1.5% 0em 0em 15%;
+	height: 60px;
+	width:80px;
+}
+
+/*temas.html*/
+.fondo_negro{
+	background-color: black !important;
+	
+}
+.borde_negro, .fondo_negro{
+	border: 5px solid black;
+}
+.borde_abajo_izq{
+	border-bottom-left-radius: 1em;g
+}
+.borde_abajo_dcha{
+	border-bottom-right-radius: 1em;
+}
+.borde_arriba_izq{
+	border-top-left-radius: 1em;
+}
+.borde_arriba_dcha{
+	border-top-right-radius: 1em;
+}
+
+#titulotemas{
+	font-family: 'Abril Fatface', cursive;
+	text-align:center;	
+	margin-bottom: 0.5em;
+	font-size: 5.5em;	
+}
+
+#divtitulo{
+	background-color:#B5E6FC;
+	padding-top: 0.3em;
+}
+
+#sinborde{
+	border: 0;
+	background-color:#B5E6FC;
+}
+
+.bordes{
+	margin-left:3%;
+	margin-right:3%;
+	
+}
+.mb-0{
+	margin: 0 0.3em 0 0.3em;
+}
+
+	
+
+/*instagram.html*/
+#tituloinsta{
+	font-family: 'Abril Fatface', cursive;
+	text-align:center;	
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	font-size: 3.5em;	
+}
+#subtitulo{
+	font-family: 'Abril Fatface', cursive;
+	margin-left:3em;
+	margin-bottom:2em;
+}
+
+#subtitulo2{
+	font-family: 'Abril Fatface', cursive;
+	margin-top:2em;
+}
+
+#parrafo{
+	margin: 2em 2em;	
+
+}
+
+#cabecera1{
+	background-color: #B5E6FC
+	 
+}
+#fotosinsta{
+	display: block;
+	margin:auto; 
+}
+
+/*horrio*/
+#sesiones{
+	font-family: 'Abril Fatface', cursive;
+	margin-left:0.6em;
+}
+#cursos{
+	font-family: 'Abril Fatface', cursive;
+	margin-left:0.6em;
+}
+
+
+#espacios{
+	margin-bottom: 3em;
+	margin-top: 3em;
+}
+
+#divcursos{
+	background-color: #B5E6FC;
+   
+}
+#fondo{
+background-color: #E1F9FF;	
+}
+
+#cuerpo{
+	background-color: #E1F9FF;	
+}
+
+
+
+
+/**carouselllll :D**/
+.multi-item-carousel{
+  .carousel-inner{
+    > .item{
+      transition: 500ms ease-in-out left;
+    }
+    .active{
+      &.left{
+        left:-33%;
+      }
+      &.right{
+        left:33%;
+      }
+    }
+    .next{
+      left: 33%;
+    }
+    .prev{
+      left: -33%;
+    }
+    @media all and (transform-3d), (-webkit-transform-3d) {
+      > .item{
+        // use your favourite prefixer here
+        transition: 500ms ease-in-out left;
+        transition: 500ms ease-in-out all;
+        backface-visibility: visible;
+        transform: none!important;
+      }
+    }
+  }
+  .carouse-control{
+    &.left, &.right{
+      background-image: none;
+    }
+  }
+}
+
+/* non-related styling:*/
+/*body{
+  background: #333;
+  color: #ddd;
+}
+h1{
+  color: white;
+  font-size: 2.25em;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 1);
+}*/
+
+/**/
+.margin_top{
+	margin-top: 2em;
+}
+#theCarousel img{
+	width:300px;
+	height: 300px;
+}
+
+
+
+
+
+

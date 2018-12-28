@@ -1,0 +1,7 @@
+#titulo{
+	font-family: 'Abril Fatface', cursive;
+	text-align:center;	
+	margin-left: 3%;
+	margin-top: 2.5%;
+	font-size: 4em;
+}
